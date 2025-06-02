@@ -4,24 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/ld-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Full Stack Developer Portfolio - Lorenzo Drovandi" />
+    <meta name="keywords" content="Lorenzo Drovandi, Full Stack Developer, Portfolio, Web Development" />
+    <meta name="author" content="Lorenzo Drovandi" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <title>Lorenzo Drovandi - Portfolio</title>
   </head>
-  <body>
-    <nav>
-      <p>Home</p>
-      <p>Projects</p>
-      <p>About Me</p>
-      <p>Technologies</p>
-      <p>Education</p>
-      <p>Contact</p>
-    </nav>
-    <div>
-      <h1>Lorenzo Drovandi</h1>
-      <h2>Full Stack Developer</h2>
-      <button>See my work</button>
-    </div>
-    <div>
-      <h3>Projects</h3>
+  <body id="root" class="bg-transparent font-mono">
+    <section
+      class="relative isolate overflow-hidden bg-black px-6 pt-27 pb-27 lg:px-8 justify-items-center"
+      id="projects">
+      <h3 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Projects</h3>
       <div class="carrousel">
         <img src="src/assets/commutationem.png" alt="project-image" />
         <p>
@@ -29,10 +23,12 @@
           different currencies. This project features a clean user interface built with HTML, CSS, JavaScript and
           Cypress.
         </p>
-        <button>View Project</button>
+        <button onclick="window.open('https://github.com/LorenzoDrovandi7/commutationem', '_blank')">
+          View Project
+        </button>
       </div>
-    </div>
-    <div>
+    </section>
+    <section id="about-me">
       <h3>About Me</h3>
       <div>
         <div>
@@ -49,14 +45,14 @@
           <img src="src/assets/profile.png" alt="Lorenzo Drovandi" />
           <p>
             I was born in Córdoba, Argentina, on July 17, 2003. From a very young age, I developed a strong interest in
-            pcomputers, creating Pokémon hackroms and Renpy games. Today, I'm dedicated solely to improving my
+            computers, creating Pokémon hackroms and Renpy games. Today, I'm dedicated solely to improving my
             programming skills and maximizing my potential to deliver the best I can to the industry I'm passionate
             about.
           </p>
         </div>
       </div>
-    </div>
-    <div>
+    </section>
+    <section class="" id="technologies">
       <h3>Technologies</h3>
       <div>
         <div>
@@ -66,10 +62,6 @@
         <div>
           <img src="src/assets/css.png" alt="CSS" />
           <p>CSS</p>
-        </div>
-        <div>
-          <img src="src/assets/js.png" alt="JavaScript" />
-          <p>JavaScript</p>
         </div>
         <div>
           <img src="src/assets/js.png" alt="JavaScript" />
@@ -100,33 +92,50 @@
           <p>Bulma</p>
         </div>
         <div>
-          <img src="src/assets/tailwind.png" alt="Tailwind" />
-          <p>Tailwind</p>
+          <img src="src/assets/tailwindcss.png" alt="Tailwind CSS" />
+          <p>Tailwind CSS</p>
         </div>
         <div>
           <img src="src/assets/express.png" alt="Express" />
           <p>Express</p>
         </div>
         <div>
-          <img src="src/assets/nodejs.png" alt="Node Js" />
-          <p>Node Js</p>
+          <img src="src/assets/nodejs.png" alt="Node.Js" />
+          <p>Node.Js</p>
+        </div>
+        <div>
+          <img src="src/assets/sqlite.png" alt="SQLite" />
+          <p>SQLite</p>
+        </div>
+        <div>
+          <img src="src/assets/nunjucks.png" alt="Nunjucks" />
+          <p>Nunjucks</p>
+        </div>
+        <div>
+          <img src="src/assets/git.png" alt="Git" />
+          <p>Git</p>
+        </div>
+        <div>
+          <img src="src/assets/vercel.png" alt="Vercel" />
+          <p>Vercel</p>
         </div>
       </div>
-    </div>
-    <div></div>
-    <h3>Education</h3>
-    <div>
-      <div class="carrousel">
-        <h4>R/ArgentinaPrograma:</h4>
-        <img src="src/assets/argentinaprograma.jpg" alt="ArgentinaPrograma" />
-        <p>
-          Full Course (In progress - 94.74%) - (HTML - CSS - JavaScript - Jest - Cypress - SOLID - Node js - Express -
-          Etc)
-        </p>
-        <button>See more</button>
+    </section>
+    <section id="education">
+      <h3>Education</h3>
+      <div>
+        <div class="carrousel">
+          <h4>R/ArgentinaPrograma:</h4>
+          <img src="src/assets/argentinaprograma.jpg" alt="ArgentinaPrograma" />
+          <p>
+            Full Course (In progress - 94.74%) - (HTML - CSS - JavaScript - Jest - Cypress - SOLID - Node js - Express -
+            Etc)
+          </p>
+          <button onclick="window.open('https://argentinaprograma.com/', '_blank')">See More</button>
+        </div>
       </div>
-    </div>
-    <div>
+    </section>
+    <section id="contact">
       <h3>Contact</h3>
       <form>
         <label for="name">Name:</label>
@@ -137,11 +146,11 @@
         <textarea id="message" name="message" rows="4" required></textarea>
         <button type="submit">Send</button>
       </form>
-    </div>
+    </section>
     <footer>
-      <a>Github</a>
-      <a>LinkedIn</a>
+      <a href="https://github.com/LorenzoDrovandi7" target="_blank" rel="noopener">Github</a>
+      <a href="https://www.linkedin.com/in/lorenzo-drovandi/" target="_blank" rel="noopener">LinkedIn</a>
     </footer>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
