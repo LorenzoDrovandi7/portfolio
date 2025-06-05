@@ -36,7 +36,7 @@ const educationItems = [
 export function Education() {
   return (
     <section id="education" className="bg-black/80 border-t border-b border-[#00FF41] text-[#00FF41] py-27 px-10">
-      <h3 className="text-7xl font-semibold text-center mb-12">Education</h3>
+      <h3 className="text-6xl font-semibold text-center mb-12">Education</h3>
       <div className="max-w-4xl mx-auto space-y-10 border-l border-[#00FF41] pl-6">
         {educationItems.map((item, index) => (
           <div key={index} className="relative">
