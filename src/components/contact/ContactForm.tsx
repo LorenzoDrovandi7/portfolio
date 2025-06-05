@@ -22,7 +22,7 @@ export function ContactForm() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10 w-4xl mx-auto text-[#00FF41] font-mono">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10 max-w-4xl mx-auto text-[#00FF41] font-mono">
       <input
         type="text"
         name="from_name"
