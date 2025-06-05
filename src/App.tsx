@@ -5,6 +5,7 @@ import { Projects } from "./components/projects/Projects";
 import { AboutMe } from "./components/aboutMe/AboutMe";
 import { Technologies } from "./components/technologies/Technologies";
 import { Education } from "./components/education/Education";
+import { Contact } from "./components/contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Education />
+      <Contact />
     </>
   );
 }

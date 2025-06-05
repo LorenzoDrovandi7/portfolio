@@ -7,17 +7,36 @@ const educationItems = [
       "Full Course (In progress - 94.74%) - (HTML - CSS - JavaScript - Jest - Cypress - SOLID - Node js - Express - Etc)",
   },
   {
-    title: "Technical High School",
-    place: "Escuela Técnica N°X",
-    date: "2018 - 2023",
-    description: "Electronics-oriented technical education with a solid base in programming and systems.",
+    title: "Responsive Web Design",
+    place: "FreeCodeCamp",
+    date: "2024",
+    description: "Completed Course - (HTML - CSS - Flexbox - Grid - Accessibility - Responsive Design)",
+  },
+  {
+    title: "Legacy Javascript Algorithms and Data Structures ",
+    place: "FreeCodeCamp",
+    date: "2025",
+    description: "Completed Course - (JavaScript - Algorithms - Data Structures - ES6 - Regular Expressions)",
+  },
+  {
+    title: "Javascript Algorithms and Data Structures ",
+    place: "FreeCodeCamp",
+    date: "2025",
+    description: "Completed Course - (JavaScript - Algorithms - Data Structures - ES6 - Regular Expressions)",
+  },
+  {
+    title: "Computer Science",
+    place: "Open Source Society University",
+    date: "2023 - 2025",
+    description:
+      "In progress - 32% - (Computer Science - Algorithms - Data Structures - Operating Systems - Networking)",
   },
 ];
 
 export function Education() {
   return (
-    <section className="bg-black text-[#00FF41] py-20 px-6">
-      <h3 className="text-5xl font-semibold text-center mb-12">Education</h3>
+    <section id="education" className="bg-black/80 border-t border-b border-[#00FF41] text-[#00FF41] py-27 px-10">
+      <h3 className="text-7xl font-semibold text-center mb-12">Education</h3>
       <div className="max-w-4xl mx-auto space-y-10 border-l border-[#00FF41] pl-6">
         {educationItems.map((item, index) => (
           <div key={index} className="relative">
