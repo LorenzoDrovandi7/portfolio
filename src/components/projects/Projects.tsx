@@ -3,6 +3,7 @@ import { ProjectCard } from "../projects/ProjectCard";
 import commutationem from "../../assets/commutationem.png";
 import webdex from "../../assets/webdex.png";
 import crudpl from "../../assets/crud-pl.png";
+import autorents from "../../assets/autorents.png";
 import htmlIcon from "../../assets/icons/html.svg";
 import cssIcon from "../../assets/icons/css.svg";
 import jsIcon from "../../assets/icons/js.svg";
@@ -11,6 +12,9 @@ import jestIcon from "../../assets/icons/jest.svg";
 import bootstrapIcon from "../../assets/icons/bootstrap.svg";
 import nodejsIcon from "../../assets/icons/nodejs.svg";
 import expressIcon from "../../assets/icons/express.svg";
+import nunjucksIcon from "../../assets/icons/nunjucks.svg";
+import bulmaIcon from "../../assets/icons/bulma.svg";
+import sqliteIcon from "../../assets/icons/sqlite.svg";
 
 const projects = [
   {
@@ -25,6 +29,23 @@ const projects = [
       { name: "JavaScript", icon: jsIcon },
       { name: "Cypress", icon: cypressIcon },
       { name: "Jest", icon: jestIcon },
+    ],
+  },
+  {
+    image: autorents,
+    title: "AutoRents",
+    description:
+      "AutoRents is a full-featured CRUD application designed to streamline the management of a car rental service. With AutoRents, you can efficiently handle a complete fleet of vehicles, manage customer data, and operate a rental system that connects both.",
+    githubUrl: "https://github.com/LorenzoDrovandi7/crud-premier-league",
+    technologies: [
+      { name: "HTML", icon: htmlIcon },
+      { name: "CSS", icon: cssIcon },
+      { name: "JavaScript", icon: jsIcon },
+      { name: "Node.Js", icon: nodejsIcon },
+      { name: "Express", icon: expressIcon },
+      { name: "Nunjucks", icon: nunjucksIcon },
+      { name: "Bulma", icon: bulmaIcon },
+      { name: "SQLite", icon: sqliteIcon },
     ],
   },
   {
