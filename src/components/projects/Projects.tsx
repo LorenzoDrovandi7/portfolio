@@ -36,7 +36,7 @@ const projects = [
     title: "AutoRents",
     description:
       "AutoRents is a full-featured CRUD application designed to streamline the management of a car rental service. With AutoRents, you can efficiently handle a complete fleet of vehicles, manage customer data, and operate a rental system that connects both.",
-    githubUrl: "https://github.com/LorenzoDrovandi7/crud-premier-league",
+    githubUrl: "https://github.com/LorenzoDrovandi7/AutoRents",
     technologies: [
       { name: "HTML", icon: htmlIcon },
       { name: "CSS", icon: cssIcon },
